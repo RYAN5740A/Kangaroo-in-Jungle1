@@ -77,7 +77,7 @@ function draw() {
     if (jungle.x < 50){
       jungle.x =width/4
     }
-   jungle.velocityX = -5;
+   jungle.velocityX = -10;
     kangaroo.x=camera.position.x-270;
   
     if(keyDown("space")) {
